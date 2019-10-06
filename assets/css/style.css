@@ -1,3 +1,47 @@
-body {
+html, body {
     background-image: url("../images/dark_embroidery.png");
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #777777;
+    font-size: 16px;
+    line-height: 25px;
+    height: 100%
+}
+
+h3 {
+ 
+  font-weight: 700;
+  color: #4aaaa5;
+  border-bottom: 3px solid #dddddd;
+}
+
+#name-tag {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+
+.nav-item {
+  border-left: 1px solid #efefef;
+}
+
+.nav-item:first-child {
+  border-left: 0 none;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    border-top: 8px solid #4aaaa5;  
+    flex-shrink: none;
+    font-size: 12px;
 }
